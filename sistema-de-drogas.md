@@ -1,4 +1,4 @@
-<img width="511" height="153" alt="image" src="https://github.com/user-attachments/assets/ddc49bc2-147b-4e8a-b3e0-eff51f6e5a8a" /># Sistema de drogas
+# Sistema de drogas
 
 ## Introducción
 
