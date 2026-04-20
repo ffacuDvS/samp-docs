@@ -1,8 +1,10 @@
-# Sistema de drogas
+<img width="511" height="153" alt="image" src="https://github.com/user-attachments/assets/ddc49bc2-147b-4e8a-b3e0-eff51f6e5a8a" /># Sistema de drogas
 
 ## Introducción
 
 El sistema de drogas permite a los personajes consumir, fabricar y cultivar distintas sustancias. Cada droga tiene efectos propios, una duración, y puede generar adicción. Mezclar varias drogas o abusar de ellas puede causar sobredosis, heridas y deterioro de salud.
+
+<img width="192" height="17" alt="image" src="https://github.com/user-attachments/assets/b6b2dd13-ecad-4b25-a30d-d20e9c515fba" />
 
 ### Comandos
 
@@ -107,6 +109,8 @@ Cada droga tiene efectos distintos: recupera hasta cierto valor de vida, resiste
 
 > Todas las drogas pueden recuperar vida **hasta 100 HP máximo** (excepto el fentanilo, que resta). Las resistencias mostradas son el máximo alcanzable con 100 de fuerza; con menos fuerza los porcentajes se reducen proporcionalmente. Mezclar más de 2 drogas provoca heridas graves y sobredosis.
 
+<img width="511" height="153" alt="image" src="https://github.com/user-attachments/assets/791ec5df-f405-402a-af01-a3f6fe8ed0ce" />
+
 ## Estados del personaje
 
 Al usar `/mirar` sobre un personaje, se muestran signos visibles según las drogas consumidas recientemente:
@@ -122,6 +126,8 @@ Al usar `/mirar` sobre un personaje, se muestran signos visibles según las drog
 - **Tabaco** — huele ligeramente a tabaco.
 - **Alcohol** — huele ligeramente a alcohol.
 
+<img width="247" height="75" alt="image" src="https://github.com/user-attachments/assets/9315d144-2758-4514-a7bb-46b9ad905d4e" />
+
 ### Comandos
 
 /mirar [id] — revisa los estados físicos visibles de un personaje.
@@ -136,10 +142,14 @@ La fuerza **disminuye cada día** de forma automática (entre 2 y 6 puntos diari
 
 Cada consumo agrega puntos de adicción a la droga usada. Si alcanzas cierto nivel de adicción y pasan **24 horas** sin consumir, empiezas a sentir **abstinencia**: mensajes de ansiedad, náuseas, vómitos y pérdida de vida. Cuanto mayor la adicción, más fuerte el síndrome.
 
+<img width="673" height="45" alt="image" src="https://github.com/user-attachments/assets/b07ff909-75b6-48e5-b4d7-ffb8ac2e1577" />
+
 La adicción baja sola con el tiempo si dejas de consumir. También puedes usar **medicamentos de detoxicación** para reducirla, o **narcán** para casos de sobredosis con varias drogas activas. Casos especiales:
 
 - **Tabaco** → tabaquismo
 - **Alcohol** → alcoholismo
+
+<img width="309" height="21" alt="image" src="https://github.com/user-attachments/assets/686df445-728d-4a26-9a94-bc0ec57c1ef4" />
 
 ### Comandos
 
