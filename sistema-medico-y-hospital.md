@@ -30,11 +30,11 @@ El importe del `/curarme` varía según el residente presente y la residencia de
 | -------------------------------------------------------- | ---------------- | ----------------------------------------------------------- |
 | Paciente con casa en Los Santos, 0–1 residente activo    | **$2.500**       | El paciente                                                 |
 | Paciente con casa en Los Santos, ≥ 2 residentes activos  | **$5.000**       | El paciente                                                 |
-| Paciente **sin residencia** en Los Santos                | **$5.000**       | Fondos del gobierno (cuenta "COSTO_ATENCION_NO_RESIDENTES") |
-| Paciente **funcionario público** en servicio             | Precio aplicable | Fondos del gobierno (cuenta "ACCIDENTES")                   |
+| Paciente **sin residencia** en Los Santos                | **$5.000**       | Fondos del gobierno                                         |
+| Paciente **funcionario público** en servicio             | Precio aplicable | Fondos del gobierno                                         |
 | Empleado en servicio en un **negocio con seguro médico** | Cubierto         | La empresa empleadora                                       |
 
-Si hay **al menos 1 residente conectado**, el importe pagado por el paciente ingresa a la caja de la facción del hospital (cuenta "GANANCIAS_HOSPITAL"). Si no hay residentes, el dinero no genera ingresos a la facción.
+Si hay **al menos 1 residente conectado**, el importe pagado por el paciente ingresa a la caja de la facción del hospital. Si no hay residentes, el dinero no genera ingresos a la facción.
 
 ### Comandos
 
@@ -108,7 +108,7 @@ Tras aceptar:
 
 - El paciente paga el precio completo de su cuenta bancaria.
 - El médico recibe **50 %** del importe en su cuenta personal.
-- La facción del hospital recibe el otro **50 %** en la cuenta "CONSULTAS_MEDICAS".
+- La facción del hospital recibe el otro **50 %** en su caja.
 - Los síntomas y el estado de enfermedad se eliminan (salvo los bloqueos por salbutamol o codeína).
 
 ## Sistema de cirugías
@@ -129,7 +129,7 @@ Los paramédicos y residentes pueden realizar **cirugías estéticas, operacione
 4. Al aceptar:
    - El paciente paga el precio completo.
    - El médico recibe el **50 %** en su cuenta personal.
-   - La facción del hospital recibe el **50 %** en la cuenta "CIRUGIAS".
+   - La facción del hospital recibe el **50 %** en su caja.
    - La descripción se guarda de forma permanente en el personaje y se muestra destacada en su `/mirar`.
 
 El rango de precios de la cirugía es **$1.000 – $1.000.000**.
