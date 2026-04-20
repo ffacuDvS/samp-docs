@@ -4,6 +4,8 @@
 
 El sistema de propiedades agrupa todos los inmuebles del servidor: **casas**, **almacenes**, **negocios**, **complejos hoteleros** e **industrias**. Los jugadores pueden comprar, vender, alquilar, amueblar y administrar propiedades, además de prestar llaves y contratar empleados para convertirlas en verdaderos negocios.
 
+<img width="376" height="52" alt="image" src="https://github.com/user-attachments/assets/81baa9c4-2129-48af-a974-8dfe59c7b4c7" />
+
 Todas las propiedades pagan **servicios de electricidad y agua**. El coste se calcula **por hora y por cada jugador** que permanece dentro, y se descuenta directamente al dueño en su **payday**. Cuantos más ocupantes y más tiempo pasen dentro, mayor será la factura.
 
 ### Comandos
@@ -23,6 +25,8 @@ Todas las propiedades pagan **servicios de electricidad y agua**. El coste se ca
 Los muebles son objetos que puedes comprar y colocar libremente dentro de tu propiedad para decorarla o darle funcionalidad (camas, sofás, luces, puertas adicionales, etc.). Puedes moverlos, rotarlos, clonarlos, aplicarles texturas y hasta convertir algunos en puertas funcionales.
 
 El flujo típico: compras un mueble con `/comprarmueble`, lo seleccionas con `/seleccionar`, entras en modo edición con `/editarmueble`, lo mueves o rotas con los comandos de ejes, y lo dejas fijo al deseleccionarlo.
+
+<img width="663" height="636" alt="image" src="https://github.com/user-attachments/assets/f6367168-f714-453b-be9f-e7e3af42bbfe" />
 
 ### Comandos
 
@@ -53,6 +57,8 @@ El flujo típico: compras un mueble con `/comprarmueble`, lo seleccionas con `/s
 Puedes **compartir tu propiedad** prestando llaves a otros personajes para que puedan entrar sin ti. Los límites son: **2 llaves** en casas y almacenes, **1 llave** en negocios.
 
 Solo el propietario, su cónyuge, miembros de la facción dueña (si aplica) y quienes tengan llave compartida con permisos pueden mover o editar muebles. Las personas con llaves pueden entrar y salir pero no siempre pueden editar muebles ni tocar la configuración del inmueble.
+
+<img width="321" height="21" alt="image" src="https://github.com/user-attachments/assets/ef84cc53-7912-48f0-bce7-a60e1a00fd3b" />
 
 ### Comandos
 
@@ -158,6 +164,8 @@ Al entrar en servicio, los empleados reciben un sueldo cada minuto mientras se m
 - Puedes tener **varios contratos** al mismo tiempo y cambiar entre ellos sin renunciar.
 - Renunciar requiere confirmación (`/renunciar confirmar`).
 
+<img width="476" height="24" alt="image" src="https://github.com/user-attachments/assets/3b74c4f9-acf5-458c-98a4-fce93212d7ba" />
+
 ### Unirse automáticamente con /negunirse
 
 El comando `/negunirse` permite unirte como empleado sin que el dueño tenga que contratarte manualmente, siempre que:
@@ -168,6 +176,8 @@ El comando `/negunirse` permite unirte como empleado sin que el dueño tenga que
 - El tipo de negocio lo permita (no funciona en banco, depósito, periodismo, seguridad ni casino).
 
 Al usarlo recibes el cargo más básico. Después, el dueño o un gerente puede ascenderte con `/darcargo`.
+
+<img width="587" height="61" alt="image" src="https://github.com/user-attachments/assets/78dc4cb0-d9d1-412e-86a7-1173c8d90077" />
 
 ### Comandos
 
