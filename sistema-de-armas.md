@@ -4,6 +4,8 @@
 
 El sistema de armas y heridas maneja las armas de fuego disponibles, su identificación mediante seriales y las consecuencias físicas de recibir disparos, apuñaladas o golpes. Cada arma tiene un calibre, peso, capacidad de cargador y daño distinto; cada herida queda registrada en el cuerpo y puede provocar sangrado, desmayo o muerte.
 
+<img width="396" height="465" alt="image" src="https://github.com/user-attachments/assets/03246ace-0513-420d-b4aa-97686519bd6f" />
+
 ### Comandos
 
 - /heridas [id] — muestra el listado de daños que ha sufrido un personaje cercano.
@@ -13,6 +15,8 @@ El sistema de armas y heridas maneja las armas de fuego disponibles, su identifi
 ## Seriales del arma
 
 Cada arma fabricada o comprada lleva un **número de serial único** que la identifica. Sirve para rastrear armas robadas o usadas en crímenes. Los seriales emitidos por el armamento federal usan el formato **CÓDIGO-NÚMERO** (por facción); las armas comunes tienen un serial numérico de 8 cifras.
+
+<img width="212" height="18" alt="image" src="https://github.com/user-attachments/assets/8bc00f91-f086-4495-8241-b1b1c40d1f06" />
 
 Un delincuente experimentado puede **borrar el serial** de su arma con un destornillador, pero este delito aumenta considerablemente la condena si lo descubren.
 
@@ -25,10 +29,14 @@ Un delincuente experimentado puede **borrar el serial** de su arma con un destor
 
 Cuando recibes daño por arma de fuego, arma blanca o golpes, la herida queda **registrada en tu cuerpo** indicando el arma utilizada, la parte del cuerpo afectada, el daño causado y hace cuánto ocurrió. Esta información puede consultarla cualquier personaje cercano con `/heridas`.
 
+<img width="394" height="429" alt="image" src="https://github.com/user-attachments/assets/dd443fac-d3b0-4ec7-9f06-adbad93c19d2" />
+
 - Al caer tu vida a niveles mínimos pasas al estado **herido**: necesitas un médico o alguien que te ayude, o morirás tras unos minutos.
 - Puedes morir de forma inmediata si sufres demasiadas heridas críticas: **5 disparos**, **5 apuñaladas**, **10 golpes fuertes** o un **tiro en la cabeza**.
 - El chaleco antibalas absorbe parte del daño de disparos antes de afectar tu vida.
 - La vida máxima del personaje depende de tu nivel de musculatura en el gimnasio (de 100 HP base hasta 175 HP con musculatura máxima).
+
+<img width="397" height="267" alt="image" src="https://github.com/user-attachments/assets/bbd275a9-8843-4b78-888f-b4ae5bc658a6" />
 
 ### Comandos
 
@@ -77,6 +85,8 @@ Con el arma en la **mano derecha** y el cargador compatible en la **mano izquier
 - Puedes especificar cuántas balas quieres cargar, o dejarlo vacío para llenar al máximo.
 - Si el arma está **rota** el cargador se atasca y no podrás recargar.
 - Si el arma está **dañada o desgastada** existe la probabilidad de que falle al cargar y tengas que reintentar.
+
+<img width="216" height="79" alt="image" src="https://github.com/user-attachments/assets/57e3c92d-71bb-4f49-b586-ecddf3309c20" />
 
 ### Rellenar el cargador
 
