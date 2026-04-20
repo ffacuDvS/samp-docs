@@ -19,6 +19,7 @@ Este repositorio se actualiza constantemente a medida que se añaden o modifican
 |---|---|---|
 | [Sistema de drogas](sistema-de-drogas.md) | Consumo, fabricación, cultivo, laboratorios, adicción y efectos de las sustancias. | sustancias, consumo, laboratorio, adicción, abstinencia, fuerza, plantación, ingredientes, narcotraficante, efectos, estados |
 | [Sistema de armas y heridas](sistema-de-armas.md) | Armas de fuego, calibres, munición, recarga, estado, reparación, seriales y heridas. | armas, pistolas, escopetas, fusiles, subfusiles, rifles, francotirador, munición, cargador, calibre, serial, heridas, kit de limpieza, reparar, chaleco, sangrado |
+| [Sistema de propiedades](sistema-de-propiedades.md) | Compra, venta, alquiler, muebles, llaves, empleados, stock y pedidos en inmuebles. | propiedades, casa, almacén, negocio, empresa, complejo, muebles, llaves, empleado, contrato, cargo, caja, stock, pedido, mostrador, entrada, salida |
 
 ---
 
