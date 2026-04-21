@@ -104,11 +104,12 @@ El panel de control de accesos está en la sala de control dentro de las seccion
 
 ## Condenas
 
-Las condenas de tiempo y multa están expuestas en el **código penal** disponible en el PCU. Puntos clave:
+Las condenas de tiempo y multa están expuestas en el código penal disponible en el PCU. Puntos clave:
 
-- El **límite máximo** de cárcel es de **360 minutos (6 horas)**, considerando que la mayoría del tiempo la cárcel no tiene rol activo. Este límite puede modificarse según la actividad.
-- El tiempo de cárcel **no pasa el doble de rápido**.
-- El tiempo de cárcel **no pasa desconectado**: debes estar en el juego para cumplir condena.
+- El límite máximo de cárcel es de 360 minutos (6 horas), considerando que la mayoría del tiempo la cárcel no tiene rol activo. Este límite puede modificarse según la actividad.
+- El tiempo de cárcel sí transcurre estando desconectado. La condena continúa corriendo incluso si el jugador no está en el servidor.
+- El tiempo de cárcel no pasa el doble de rápido.
+- Si un jugador alcanza los 30 puntos criminales, será condenado automáticamente a 1 semana de cárcel IC, independientemente del cálculo estándar de minutos.
 
 ## Libertad condicional
 
