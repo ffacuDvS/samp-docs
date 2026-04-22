@@ -30,6 +30,8 @@ El casino además ofrece dinámicas propias como la **compra de acciones** y el 
 
 El **blackjack** es un juego de cartas cuyo objetivo es sumar **21 puntos** o acercarse lo más posible sin pasarse, enfrentándote al crupier.
 
+![blackjack](../assets/sistema-de-casino/blackjack.png)
+
 ### Valor de las cartas
 
 - Las cartas del **2 al 10** mantienen su valor numérico.
@@ -49,7 +51,9 @@ Cuando terminan todos los jugadores, el crupier revela su carta oculta y **pide 
 ### Resultados y pagos
 
 - **Ganas** si tu mano supera la del crupier sin pasarte, o si el crupier se pasa de 21.
+  - **Pago**: x1.5 sobre la apuesta.
 - **Blackjack natural** (As + carta de valor 10 en las dos primeras cartas): se paga con un **multiplicador especial más alto** que una victoria normal.
+  - **Pago**: x2 sobre la apuesta.
 - **Six Card Charlie**: si llegas a 21 o menos usando **seis cartas** sin pasarte, recibes un **pago aumentado** aunque el crupier no se pase.
 - **Empate (push)**: se te devuelve la apuesta sin ganancia ni pérdida.
 - **Derrota**: pierdes la apuesta inicial.
@@ -63,6 +67,8 @@ Cuando terminan todos los jugadores, el crupier revela su carta oculta y **pide 
 ---
 
 ## 2. Ruleta
+
+![ruleta](../assets/sistema-de-casino/ruleta.png)
 
 La **ruleta europea** es un juego de azar en el que apuestas al número o color en el que caerá la bola sobre una rueda giratoria. La rueda tiene **37 casillas** (del 0 al 36), que alternan entre **rojo y negro**, salvo el 0.
 
@@ -92,6 +98,8 @@ El Emerald Isle cuenta con **2 mesas de ruleta** activas. Cada mesa tiene config
 
 ## 3. Máquinas tragamonedas
 
+![slots](../assets/sistema-de-casino/slots.png)
+
 Las **tragamonedas** ("slots") son máquinas de azar en las que eliges una apuesta, giras los tres rodillos y cobras según la combinación final de símbolos.
 
 ### Combinaciones y multiplicadores
@@ -111,6 +119,8 @@ El pago se calcula multiplicando la apuesta por el multiplicador de la combinaci
 
 Las tragamonedas permiten elegir entre distintos tramos fijos de apuesta, desde **$25** hasta **$100.000** por giro, lo que permite jugadas accesibles y también apuestas para grandes roleplays.
 
+![opcionesSlots](../assets/sistema-de-casino/opciones-de-slots.png)
+
 ### Sala de tragamonedas
 
 - El Emerald Isle dispone de **30 máquinas tragamonedas** distribuidas en su sala principal.
@@ -123,6 +133,8 @@ Las tragamonedas permiten elegir entre distintos tramos fijos de apuesta, desde 
 El **póker Texas Hold'em** es una variante en la que a cada jugador se le reparten **dos cartas privadas** y se colocan hasta **cinco cartas comunitarias** sobre la mesa en tres fases: **flop** (3 cartas), **turn** (1 carta) y **river** (1 carta). En cada ronda de apuestas los jugadores pueden **igualar**, **subir**, **pasar**, **retirarse** o ir **all-in**.
 
 El objetivo es formar la **mejor jugada de cinco cartas** combinando tus dos cartas privadas y las cinco comunitarias.
+
+![poker](../assets/sistema-de-casino/poker.png)
 
 ### Novedad — Disponible en cualquier propiedad
 

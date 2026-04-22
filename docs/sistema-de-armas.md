@@ -8,9 +8,9 @@ El sistema de armas y heridas maneja las armas de fuego disponibles, su identifi
 
 ### Comandos
 
-- /heridas [id] — muestra el listado de daños que ha sufrido un personaje cercano.
-- /asesino — muestra el nombre de la última persona que te dejó herido.
-- /aceptarmuerte — cuando estás herido, acepta tu muerte definitiva en vez de esperar.
+- `/heridas [id]` — muestra el listado de daños que ha sufrido un personaje cercano.
+- `/asesino` — muestra el nombre de la última persona que te dejó herido.
+- `/aceptarmuerte` — cuando estás herido, acepta tu muerte definitiva en vez de esperar.
 
 ## Seriales del arma
 
@@ -20,10 +20,14 @@ Cada arma fabricada o comprada lleva un **número de serial único** que la iden
 
 Un delincuente experimentado puede **borrar el serial** de su arma con un destornillador, pero este delito aumenta considerablemente la condena si lo descubren.
 
+<img width="212" height="18" alt="image" src=../assets/sistema-de-armas/serial-borrado1.png>
+
+<img width="212" height="18" alt="image" src=../assets/sistema-de-armas/serial-borrado2.png>
+
 ### Comandos
 
-- /serial — muestra el serial del arma que tienes en la mano derecha.
-- /borrarserial [confirmar] — borra el serial del arma en la mano derecha (requiere destornillador en la mano izquierda y alta habilidad de delincuente).
+- `/serial` — muestra el serial del arma que tienes en la mano derecha.
+- `/borrarserial [confirmar]` — borra el serial del arma en la mano derecha (requiere destornillador en la mano izquierda y al menos 80 de habilidad de delincuente.).
 
 ## Sistema de heridas
 
@@ -40,9 +44,9 @@ Cuando recibes daño por arma de fuego, arma blanca o golpes, la herida queda **
 
 ### Comandos
 
-- /heridas [id] — revisa las heridas de un personaje cercano.
-- /asesino — consulta quién te dejó herido por última vez.
-- /aceptarmuerte — aceptas la muerte definitiva cuando estás herido.
+- `/heridas [id]` — revisa las heridas de un personaje cercano.
+- `/asesino` o `/qfa` — consulta quién te dejó herido por última vez.
+- `/aceptarmuerte` — aceptas la muerte definitiva cuando estás herido.
 
 ## Estado del arma
 
@@ -55,6 +59,8 @@ Estados según la calidad:
 - **Dañada** — calidad entre 1 y 25. Probabilidad alta de fallar al cargar el cargador.
 - **Rota** — calidad 1 o menor. El cargador queda atascado y no se puede recargar hasta repararla.
 
+<img width="400" height="45" alt="image" src=../assets/sistema-de-armas/limpiararma.png>>
+
 ### Reparar el arma
 
 Para reparar un arma necesitas un **kit de limpieza**. Sostén el arma en la **mano derecha** y el kit de limpieza en la **mano izquierda**, y usa `/limpiararma`.
@@ -66,7 +72,7 @@ Para reparar un arma necesitas un **kit de limpieza**. Sostén el arma en la **m
 
 ### Comandos
 
-- /limpiararma — repara el arma de tu mano derecha usando el kit de limpieza de tu mano izquierda. Alias: `/reparararma`.
+- `/limpiararma` — repara el arma de tu mano derecha usando el kit de limpieza de tu mano izquierda. Alias: `/reparararma`.
 
 ## Municiones y cargas
 
@@ -80,7 +86,7 @@ El sistema funciona en tres partes:
 
 ### Recargar el arma
 
-Con el arma en la **mano derecha** y el cargador compatible en la **mano izquierda** (o en tu inventario, equipo o cerca si es de gran capacidad), usa `/cargar` para pasar balas del cargador al arma.
+Con el arma en la **mano derecha** y el cargador compatible en la **mano izquierda** (o en tu inventario, equipo o cerca si es de gran capacidad), usa `/cargar` o `/recargar` para pasar balas del cargador al arma.
 
 - Puedes especificar cuántas balas quieres cargar, o dejarlo vacío para llenar al máximo.
 - Si el arma está **rota** el cargador se atasca y no podrás recargar.
@@ -92,10 +98,12 @@ Con el arma en la **mano derecha** y el cargador compatible en la **mano izquier
 
 Para rellenar un cargador vacío o parcial, sostén el cargador en la **mano derecha** y acércate a una **caja de munición** del mismo calibre. Usa `/municion` para pasar balas de la caja al cargador.
 
+<img src="../assets/sistema-de-armas/municion1.png">
+
 ### Comandos
 
-- /cargar [cantidad] — carga balas desde tu cargador hacia el arma en la mano derecha. Alias: `/recargar`.
-- /municion — rellena el cargador que llevas en la mano derecha desde una caja de munición cercana.
+- `/cargar [cantidad]` — carga balas desde tu cargador hacia el arma en la mano derecha. Alias: `/recargar`.
+- `/municion` — rellena el cargador que llevas en la mano derecha desde una caja de munición cercana.
 
 ## Lista de armas y parámetros
 
